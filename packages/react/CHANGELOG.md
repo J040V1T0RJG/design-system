@@ -1,5 +1,11 @@
 # @j040v1t0r-ignite-ui/react
 
+## 2.0.2
+
+### Patch Changes
+
+- add toast component
+
 ## 2.0.1
 
 ### Patch Changes
