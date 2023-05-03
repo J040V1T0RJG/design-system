@@ -1,6 +1,6 @@
 import {
   Close,
-  ToastContainer,
+  ToastRoot,
   Description,
   ToastProvider,
   Title,
@@ -23,7 +23,7 @@ export function Toast({ title, description, DynamicButton }: ToastProps) {
   return (
     <ToastProvider swipeDirection="right">
       <div onClick={() => setOpen(true)}>{DynamicButton}</div>
-      <ToastContainer open={open} onOpenChange={setOpen}>
+      <ToastRoot open={open} onOpenChange={setOpen}>
         <Title asChild>
           <Heading color="$white">{title}</Heading>
         </Title>
@@ -33,7 +33,7 @@ export function Toast({ title, description, DynamicButton }: ToastProps) {
         <Close>
           <X size={16} />
         </Close>
-      </ToastContainer>
+      </ToastRoot>
       <Viewport />
     </ToastProvider>
   )

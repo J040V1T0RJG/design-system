@@ -1,5 +1,11 @@
 # @j040v1t0r-ignite-ui/react
 
+## 2.0.3
+
+### Patch Changes
+
+- add tooltip component
+
 ## 2.0.2
 
 ### Patch Changes

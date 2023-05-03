@@ -31,7 +31,7 @@ const swipeOut = keyframes({
 
 export const ToastProvider = styled(Toast.Provider, {})
 
-export const ToastContainer = styled(Toast.Root, {
+export const ToastRoot = styled(Toast.Root, {
   display: 'flex',
   flexDirection: 'column',
   minWidth: '22.5rem',
